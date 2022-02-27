@@ -1,23 +1,23 @@
 from distutils.core import setup
 setup(
-    name='YOURPACKAGENAME',         # How you named your package folder (MyLib)
-    packages=['YOURPACKAGENAME'],   # Chose the same as "name"
+    name='topsis_Chirag_101903257',         # How you named your package folder (MyLib)
+    packages=['topsis_Chirag_101903257'],   # Chose the same as "name"
     version='0.1',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
     description='TYPE YOUR DESCRIPTION HERE',
-    author='YOUR NAME',                   # Type in your name
-    author_email='your.email@domain.com',      # Type in your E-Mail
+    author='Chirag Manchanda',                   # Type in your name
+    author_email='chiragmanchanda1@gmail.com',      # Type in your E-Mail
     # Provide either the link to your github or to your website
-    url='https://github.com/user/reponame',
+    url='https://github.com/chiragmanchanda9/topsis_Chirag_101903257.git',
     # I explain this later on
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+    download_url='https://github.com/chiragmanchanda9/topsis_Chirag_101903257/archive/refs/tags/v_01.tar.gz',
     # Keywords that define your package best
     keywords=['SOME', 'MEANINGFULL', 'KEYWORDS'],
     install_requires=[            # I get to this in a second
-        'validators',
-        'beautifulsoup4',
+        'numpy',
+        'pandas',
     ],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
